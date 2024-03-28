@@ -1,0 +1,42 @@
+[0.574s] Invoking command in '/home/lemar/ros2_ws/src/py_srvcli': PYTHONPATH=/home/lemar/ros2_ws/build/py_srvcli/prefix_override:/home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/lemar/ros2_ws/build/py_srvcli/build install --record /home/lemar/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.756s] running egg_info
+[0.756s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.756s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.757s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.758s] adding license file 'LICENSE'
+[0.758s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.759s] running build
+[0.759s] running build_py
+[0.759s] creating /home/lemar/ros2_ws/build/py_srvcli/build
+[0.759s] creating /home/lemar/ros2_ws/build/py_srvcli/build/lib
+[0.759s] creating /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.759s] copying py_srvcli/__init__.py -> /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.759s] copying py_srvcli/service_member_function.py -> /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.760s] copying py_srvcli/client_member_function.py -> /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.760s] running install
+[0.760s] running install_lib
+[0.761s] creating /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.761s] copying /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.761s] copying /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.761s] copying /home/lemar/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.761s] byte-compiling /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.762s] byte-compiling /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[0.762s] byte-compiling /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.762s] running install_data
+[0.762s] creating /home/lemar/ros2_ws/install/py_srvcli/share/ament_index
+[0.762s] creating /home/lemar/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.763s] creating /home/lemar/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.763s] copying resource/py_srvcli -> /home/lemar/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.763s] copying package.xml -> /home/lemar/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.763s] running install_egg_info
+[0.764s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.780s] Installing client script to /home/lemar/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.780s] Installing service script to /home/lemar/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.780s] writing list of installed files to '/home/lemar/ros2_ws/build/py_srvcli/install.log'
+[0.808s] Invoked command in '/home/lemar/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/lemar/ros2_ws/build/py_srvcli/prefix_override:/home/lemar/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/lemar/ros2_ws/build/py_srvcli/build install --record /home/lemar/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

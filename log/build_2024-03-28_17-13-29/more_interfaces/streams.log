@@ -1,0 +1,246 @@
+[0.011s] Invoking command in '/home/lemar/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lemar/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/lemar/ros2_ws/install/more_interfaces
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.486s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.576s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.733s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.735s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.847s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.892s] -- Looking for pthread.h
+[0.967s] -- Looking for pthread.h - found
+[0.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.059s] -- Found Threads: TRUE  
+[1.571s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.277s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.278s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.333s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.333s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.333s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.371s] -- Found PythonExtra: .so  
+[2.433s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.454s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.455s] -- Configured cppcheck include dirs: 
+[2.455s] -- Configured cppcheck exclude dirs and/or files: 
+[2.455s] -- Added test 'lint_cmake' to check CMake code style
+[2.456s] -- Added test 'uncrustify' to check C / C++ code style
+[2.456s] -- Configured uncrustify additional arguments: 
+[2.457s] -- Added test 'xmllint' to check XML markup files
+[2.459s] -- Configuring done
+[2.491s] -- Generating done
+[2.493s] -- Build files have been written to: /home/lemar/ros2_ws/build/more_interfaces
+[2.503s] Invoked command in '/home/lemar/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lemar/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/lemar/ros2_ws/install/more_interfaces
+[2.506s] Invoking command in '/home/lemar/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemar/ros2_ws/build/more_interfaces -- -j12 -l12
+[2.564s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.578s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.588s] [  6%] Built target ament_cmake_python_copy_more_interfaces
+[2.785s] running egg_info
+[2.786s] creating more_interfaces.egg-info
+[2.786s] writing more_interfaces.egg-info/PKG-INFO
+[2.786s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[2.786s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[2.786s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.788s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.788s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.826s] [  9%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[2.826s] [  9%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.838s] [  9%] Built target more_interfaces__cpp
+[2.845s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.846s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.849s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.862s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[2.892s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[2.901s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.901s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.901s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.061s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[3.073s] [ 36%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[3.084s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[3.111s] [ 42%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[3.131s] [ 45%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[3.134s] [ 48%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[3.139s] [ 51%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[3.158s] [ 54%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.173s] [ 54%] Built target more_interfaces__rosidl_typesupport_c
+[3.183s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[3.293s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[3.329s] [ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[3.354s] [ 60%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[3.362s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.389s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.402s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.426s] [ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[3.481s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.490s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[3.504s] [ 69%] Built target more_interfaces
+[3.519s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.773s] [ 72%] Built target more_interfaces__py
+[3.795s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[3.874s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[3.915s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[3.932s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.940s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.942s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.003s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.014s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.029s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.041s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.041s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[4.070s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.690s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[6.855s] [100%] Built target publish_address_book
+[6.873s] Invoked command in '/home/lemar/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemar/ros2_ws/build/more_interfaces -- -j12 -l12
+[6.942s] Invoking command in '/home/lemar/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemar/ros2_ws/build/more_interfaces
+[6.953s] -- Install configuration: ""
+[6.954s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[6.956s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[6.956s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[6.956s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[6.957s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.958s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[6.958s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[6.958s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[6.959s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[6.959s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.959s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.959s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.959s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[6.959s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.960s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.960s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.961s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.961s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.961s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.961s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[6.961s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[6.961s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.961s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[6.962s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.962s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[6.962s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[6.962s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.962s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.962s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.963s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[6.963s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[6.963s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[6.963s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[6.963s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.963s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.963s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.964s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[6.964s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[6.964s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.964s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.965s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.965s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[6.965s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[6.965s] -- Up-to-date: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[6.965s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[6.965s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[6.966s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.966s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.966s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[6.967s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.967s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[6.967s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[6.967s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[6.968s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.968s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.968s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.969s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[6.970s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.970s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.970s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[6.970s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.971s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[6.971s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[6.971s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[6.971s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[7.028s] Listing '/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[7.029s] Compiling '/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...
+[7.029s] Listing '/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[7.029s] Compiling '/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...
+[7.029s] Compiling '/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py'...
+[7.033s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.034s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.034s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.035s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.035s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.036s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.037s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[7.037s] -- Set runtime path of "/home/lemar/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[7.038s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[7.038s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[7.038s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[7.038s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[7.039s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[7.039s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[7.039s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[7.040s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[7.040s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[7.040s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[7.041s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[7.041s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[7.041s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[7.042s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[7.042s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[7.043s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.043s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.043s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.044s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.044s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.044s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[7.044s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.045s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[7.045s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.045s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.045s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.045s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.046s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[7.046s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.046s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[7.046s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.047s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.047s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.047s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.047s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.048s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.048s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.048s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.049s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[7.049s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[7.049s] -- Installing: /home/lemar/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[7.054s] Invoked command in '/home/lemar/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemar/ros2_ws/build/more_interfaces

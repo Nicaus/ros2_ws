@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/home/lemar/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemar/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.158s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.223s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.538s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.710s] -- Configuring done
+[0.720s] -- Generating done
+[0.721s] -- Build files have been written to: /home/lemar/ros2_ws/build/cpp_srvcli
+[0.766s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.766s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.403s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.550s] [ 75%] Built target server
+[3.571s] [100%] [32m[1mLinking CXX executable client[0m
+[3.722s] [100%] Built target client
+[3.738s] Invoked command in '/home/lemar/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lemar/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[3.774s] Invoking command in '/home/lemar/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemar/ros2_ws/build/cpp_srvcli
+[3.779s] -- Install configuration: ""
+[3.779s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.779s] -- Set runtime path of "/home/lemar/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.780s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.780s] -- Set runtime path of "/home/lemar/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.780s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.781s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.781s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.781s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.781s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.781s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.781s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.782s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.782s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.782s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.782s] -- Installing: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.783s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.783s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.783s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.783s] -- Up-to-date: /home/lemar/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.784s] Invoked command in '/home/lemar/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lemar/ros2_ws/build/cpp_srvcli
