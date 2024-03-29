@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "Findstd_msgd.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "std_msgd",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "std_msgd" with any
+  of the following names:
+
+    std_msgdConfig.cmake
+    std_msgd-config.cmake
+
+  Add the installation prefix of "std_msgd" to CMAKE_PREFIX_PATH or set
+  "std_msgd_DIR" to a directory containing one of the above files.  If
+  "std_msgd" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

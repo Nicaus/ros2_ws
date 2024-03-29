@@ -1,0 +1,59 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lemar/ros2_ws/build/introtask
+[  0%] Built target ament_cmake_python_copy_introtask
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/cpppub_node.cpp.o[0m
+running egg_info
+creating introtask.egg-info
+writing introtask.egg-info/PKG-INFO
+writing dependency_links to introtask.egg-info/dependency_links.txt
+writing top-level names to introtask.egg-info/top_level.txt
+writing manifest file 'introtask.egg-info/SOURCES.txt'
+reading manifest file 'introtask.egg-info/SOURCES.txt'
+writing manifest file 'introtask.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_introtask_egg
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/pythonpath.sh
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/pythonpath.dsv
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/__init__.py
+-- Installing: /home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/module.py
+Listing '/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask'...
+Compiling '/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/__init__.py'...
+Compiling '/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/module.py'...
+-- Installing: /home/lemar/ros2_ws/install/introtask/lib/introtask/talker
+-- Set runtime path of "/home/lemar/ros2_ws/install/introtask/lib/introtask/talker" to ""
+-- Installing: /home/lemar/ros2_ws/install/introtask/lib/introtask/pysub_node.py
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/ament_index/resource_index/package_run_dependencies/introtask
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/ament_index/resource_index/parent_prefix_path/introtask
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/ament_prefix_path.sh
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/ament_prefix_path.dsv
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/path.sh
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/environment/path.dsv
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/local_setup.bash
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/local_setup.sh
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/local_setup.zsh
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/local_setup.dsv
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/package.dsv
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/ament_index/resource_index/packages/introtask
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/cmake/introtaskConfig.cmake
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/cmake/introtaskConfig-version.cmake
+-- Installing: /home/lemar/ros2_ws/install/introtask/share/introtask/package.xml

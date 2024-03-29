@@ -1,0 +1,4 @@
+source;share/introtask/local_setup.bash
+source;share/introtask/local_setup.dsv
+source;share/introtask/local_setup.sh
+source;share/introtask/local_setup.zsh

@@ -1,0 +1,12 @@
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/uninstall.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/introtask_uninstall.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/talker.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/ament_cmake_python_copy_introtask.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/ament_cmake_python_build_introtask_egg.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/test.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/edit_cache.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/rebuild_cache.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/list_install_components.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/install.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/install/local.dir
+/home/lemar/ros2_ws/build/introtask/CMakeFiles/install/strip.dir
