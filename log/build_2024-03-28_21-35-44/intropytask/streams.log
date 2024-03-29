@@ -1,0 +1,40 @@
+[0.594s] Invoking command in '/home/lemar/ros2_ws/src/intropytask': PYTHONPATH=/home/lemar/ros2_ws/build/intropytask/prefix_override:/home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/intropytask build --build-base /home/lemar/ros2_ws/build/intropytask/build install --record /home/lemar/ros2_ws/build/intropytask/install.log --single-version-externally-managed install_data
+[0.848s] running egg_info
+[0.849s] creating ../../build/intropytask/intropytask.egg-info
+[0.849s] writing ../../build/intropytask/intropytask.egg-info/PKG-INFO
+[0.849s] writing dependency_links to ../../build/intropytask/intropytask.egg-info/dependency_links.txt
+[0.849s] writing entry points to ../../build/intropytask/intropytask.egg-info/entry_points.txt
+[0.850s] writing requirements to ../../build/intropytask/intropytask.egg-info/requires.txt
+[0.850s] writing top-level names to ../../build/intropytask/intropytask.egg-info/top_level.txt
+[0.850s] writing manifest file '../../build/intropytask/intropytask.egg-info/SOURCES.txt'
+[0.852s] reading manifest file '../../build/intropytask/intropytask.egg-info/SOURCES.txt'
+[0.852s] adding license file 'LICENSE'
+[0.852s] writing manifest file '../../build/intropytask/intropytask.egg-info/SOURCES.txt'
+[0.852s] running build
+[0.853s] running build_py
+[0.853s] creating /home/lemar/ros2_ws/build/intropytask/build
+[0.853s] creating /home/lemar/ros2_ws/build/intropytask/build/lib
+[0.853s] creating /home/lemar/ros2_ws/build/intropytask/build/lib/intropytask
+[0.854s] copying intropytask/__init__.py -> /home/lemar/ros2_ws/build/intropytask/build/lib/intropytask
+[0.854s] copying intropytask/pysub_node.py -> /home/lemar/ros2_ws/build/intropytask/build/lib/intropytask
+[0.855s] running install
+[0.855s] running install_lib
+[0.856s] creating /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask
+[0.856s] copying /home/lemar/ros2_ws/build/intropytask/build/lib/intropytask/__init__.py -> /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask
+[0.856s] copying /home/lemar/ros2_ws/build/intropytask/build/lib/intropytask/pysub_node.py -> /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask
+[0.857s] byte-compiling /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask/__init__.py to __init__.cpython-310.pyc
+[0.857s] byte-compiling /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask/pysub_node.py to pysub_node.cpython-310.pyc
+[0.857s] running install_data
+[0.857s] creating /home/lemar/ros2_ws/install/intropytask/share
+[0.858s] creating /home/lemar/ros2_ws/install/intropytask/share/ament_index
+[0.858s] creating /home/lemar/ros2_ws/install/intropytask/share/ament_index/resource_index
+[0.858s] creating /home/lemar/ros2_ws/install/intropytask/share/ament_index/resource_index/packages
+[0.858s] copying resource/intropytask -> /home/lemar/ros2_ws/install/intropytask/share/ament_index/resource_index/packages
+[0.858s] creating /home/lemar/ros2_ws/install/intropytask/share/intropytask
+[0.858s] copying package.xml -> /home/lemar/ros2_ws/install/intropytask/share/intropytask
+[0.859s] running install_egg_info
+[0.860s] Copying ../../build/intropytask/intropytask.egg-info to /home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages/intropytask-0.0.0-py3.10.egg-info
+[0.860s] running install_scripts
+[0.880s] Installing listener script to /home/lemar/ros2_ws/install/intropytask/lib/intropytask
+[0.880s] writing list of installed files to '/home/lemar/ros2_ws/build/intropytask/install.log'
+[0.931s] Invoked command in '/home/lemar/ros2_ws/src/intropytask' returned '0': PYTHONPATH=/home/lemar/ros2_ws/build/intropytask/prefix_override:/home/lemar/ros2_ws/install/intropytask/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/intropytask build --build-base /home/lemar/ros2_ws/build/intropytask/build install --record /home/lemar/ros2_ws/build/intropytask/install.log --single-version-externally-managed install_data

@@ -1,13 +1,4 @@
-/home/lemar/ros2_ws/install/introtask/share/introtask/environment/pythonpath.sh
-/home/lemar/ros2_ws/install/introtask/share/introtask/environment/pythonpath.dsv
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/PKG-INFO
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/top_level.txt
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/dependency_links.txt
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask-0.0.0-py3.10.egg-info/SOURCES.txt
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/__init__.py
-/home/lemar/ros2_ws/install/introtask/local/lib/python3.10/dist-packages/introtask/module.py
 /home/lemar/ros2_ws/install/introtask/lib/introtask/talker
-/home/lemar/ros2_ws/install/introtask/lib/introtask/pysub_node.py
 /home/lemar/ros2_ws/install/introtask/share/ament_index/resource_index/package_run_dependencies/introtask
 /home/lemar/ros2_ws/install/introtask/share/ament_index/resource_index/parent_prefix_path/introtask
 /home/lemar/ros2_ws/install/introtask/share/introtask/environment/ament_prefix_path.sh

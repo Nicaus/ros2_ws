@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../build/intropytask/intropytask.egg-info/PKG-INFO
+../build/intropytask/intropytask.egg-info/SOURCES.txt
+../build/intropytask/intropytask.egg-info/dependency_links.txt
+../build/intropytask/intropytask.egg-info/entry_points.txt
+../build/intropytask/intropytask.egg-info/requires.txt
+../build/intropytask/intropytask.egg-info/top_level.txt
+../build/intropytask/intropytask.egg-info/zip-safe
+intropytask/__init__.py
+intropytask/pysub_node.py
+resource/intropytask
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

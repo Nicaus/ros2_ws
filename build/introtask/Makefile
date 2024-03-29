@@ -210,32 +210,6 @@ talker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
-#=============================================================================
-# Target rules for targets named ament_cmake_python_copy_introtask
-
-# Build rule for target.
-ament_cmake_python_copy_introtask: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_introtask
-.PHONY : ament_cmake_python_copy_introtask
-
-# fast build rule for target.
-ament_cmake_python_copy_introtask/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_introtask.dir/build.make CMakeFiles/ament_cmake_python_copy_introtask.dir/build
-.PHONY : ament_cmake_python_copy_introtask/fast
-
-#=============================================================================
-# Target rules for targets named ament_cmake_python_build_introtask_egg
-
-# Build rule for target.
-ament_cmake_python_build_introtask_egg: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_introtask_egg
-.PHONY : ament_cmake_python_build_introtask_egg
-
-# fast build rule for target.
-ament_cmake_python_build_introtask_egg/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_introtask_egg.dir/build.make CMakeFiles/ament_cmake_python_build_introtask_egg.dir/build
-.PHONY : ament_cmake_python_build_introtask_egg/fast
-
 src/cpppub_node.o: src/cpppub_node.cpp.o
 .PHONY : src/cpppub_node.o
 
@@ -273,8 +247,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... ament_cmake_python_build_introtask_egg"
-	@echo "... ament_cmake_python_copy_introtask"
 	@echo "... introtask_uninstall"
 	@echo "... uninstall"
 	@echo "... talker"
