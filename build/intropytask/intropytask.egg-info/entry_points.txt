@@ -1,3 +1,0 @@
-[console_scripts]
-listener = intropytask.pysub_node:main
-
